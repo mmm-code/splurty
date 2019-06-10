@@ -16,3 +16,7 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 // https://github.com/twbs/bootstrap-rubygem#b-other-ruby-frameworks
 @import "bootstrap";
+
+.clear {
+  clear: both;
+}
