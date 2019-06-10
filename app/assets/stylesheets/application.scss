@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -55,6 +56,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'nobileregular', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -63,4 +66,18 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'nobileregular', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'nobilemedium_italic', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
