@@ -6,8 +6,7 @@ ruby '2.5.3'
 # Bootstrap JavaScript depends on jQuery.
 # add gem for jQuery
 gem 'jquery-rails'
-# add bootstrap to the Gemfile
-gem 'bootstrap', '~> 4.3.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use postgresql as the database for Active Record
@@ -34,6 +33,17 @@ gem 'jbuilder', '~> 2.5'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
+
+# add gem tether
+# https://github.com/jakegavin/tether-rails
+gem 'tether-rails', '~> 1.4'
+# Add Lesson 7: Add Bootstrap
+gem 'popper_js', '~> 1.11.1'
+gem 'bootstrap', '4.0.0.alpha6'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end  
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -62,6 +72,7 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
 end
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
