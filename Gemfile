@@ -34,6 +34,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+# add Octicons
+gem 'octicons_helper'
+
 # add gem tether
 # https://github.com/jakegavin/tether-rails
 gem 'tether-rails', '~> 1.4'
@@ -41,6 +44,8 @@ gem 'tether-rails', '~> 1.4'
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
 
+# Add SimpleForm Splurty L12
+gem 'simple_form'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end  
